@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en" ng-app="testApp">
+<head>
+  <meta charset="utf-8">
+  <title>Test</title>
+
+
+  <link rel="icon" type="image/png" href="img/someimage.png" />
+  <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <base href="/">
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <script src="bower_components/angular-resource/angular-resource.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.js"></script>
+  
+  <script src="js/testApp.js"></script>  
+  <script src="js/Pikachu.js"></script>
+  <script src="js/Charmonder.js"></script>
+  <script src="js/Psaudak.js"></script>
+  <script src="js/home.js"></script>
+
+
+
+</head>
+
+<body>
+<div class = "line">
+  <ul class="nav navbar-nav">
+    <li><a href="/"><h3>POKEMONS</h3></a> </li>
+    <li><a href="/Charmonder"><h3>Charmonder</h3></a></li>
+    <li><a href="/Pikachu"><h3>Pikachu</h3></a></li>
+    <li><a href="/Psaudak"><h3>Psaudak</h3></a></li>
+  </ul>
+</div>
+<hr />
+
+<div class="container">
+  <ng-view></ng-view>
+</div>
+</body>
+
+</html>
